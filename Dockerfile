@@ -29,5 +29,7 @@ WORKDIR /etc/haproxy
 CMD ["bash", "/haproxy-start"]
 
 # Expose ports.
+EXPOSE 21
+EXPOSE 22
 EXPOSE 80
 EXPOSE 443
